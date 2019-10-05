@@ -22,7 +22,7 @@ end
 
 def my_hash_creator(key, value)
  {
-   key: value
+   :key => value
  }
 end
 
@@ -36,4 +36,5 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1
   end
+  
 end
