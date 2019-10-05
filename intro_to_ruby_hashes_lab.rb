@@ -31,8 +31,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if grocery_items[:rambutan]
-    puts "Rambutan present!"
+  if hash[key]
+    hash[key]
   else
     puts "No rambutan."
   end
